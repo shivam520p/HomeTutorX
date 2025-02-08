@@ -1,0 +1,13 @@
+.scaling{
+    animation:scale1 0.6s ease-in-out
+}
+@keyframes scale1 {
+    0% {
+        transform: translateX(-100px);
+        opacity: -1;    
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
